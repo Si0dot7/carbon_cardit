@@ -9,7 +9,7 @@ type Plot = {
   crop: string; season: "นาปี" | "นาปรัง" | "ฤดูฝน" | "ฤดูแล้ง";
 };
 
-export const MOCK_PLOTS: Plot[] = [
+const MOCK_PLOTS: Plot[] = [
   { id:"TH-AF-001", name:"แปลงข้าวโพด-นายกฤษ", area_rai:32, area_text:"32 ไร่", lat:18.0412, lon:99.2976, province:"ตาก", amphoe:"แม่สอด", crop:"ข้าวโพดเลี้ยงสัตว์", season:"ฤดูฝน" },
   { id:"TH-RC-002", name:"นาข้าว-นายสุทัต", area_rai:18, area_text:"18 ไร่", lat:16.2455, lon:102.8391, province:"ขอนแก่น", amphoe:"บ้านไผ่", crop:"ข้าวหอมมะลิ", season:"นาปี" },
   { id:"TH-SC-003", name:"สวนอ้อย-นางสาวจิรดา", area_rai:50, area_text:"50 ไร่", lat:9.1402, lon:99.3219, province:"สุราษฎร์ธานี", amphoe:"พุนพิน", crop:"อ้อย", season:"ฤดูฝน" },
